@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Hola mundo, soy un capo!!!&nbsp;
-        </p>
+        {/* <p>
+          Hola mundo, soy un capo&nbsp;
+        </p> */}
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -25,9 +25,24 @@ export default function Home() {
             />
           </a>
         </div>
+        <div style={{display:"flex"}}>
+          <p>
+            Login
+          </p>
+          <p>
+            Register
+          </p>
+        </div>
       </div>
 
       <div className={styles.center}>
+        <h1>
+          Le Pain Quantique
+        </h1>
+
+      </div>
+
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -36,7 +51,7 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
       <div className={styles.grid}>
         <a
